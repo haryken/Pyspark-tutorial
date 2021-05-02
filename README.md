@@ -75,8 +75,8 @@ getNumPartitions () - Đây là một hàm RDD trả về một số phân vùng
 ![image](https://user-images.githubusercontent.com/64195026/109417927-4451e480-79f8-11eb-9d43-bb99fc44eb9c.png)
 
 Đặt song song theo cách thủ công - Chúng ta cũng có thể đặt một số phân vùng theo cách thủ công, tất cả những gì chúng ta cần là chuyển một số phân vùng làm tham số thứ hai cho các hàm này chẳng hạn   sparkContext.parallelize([1,2,3,4,56,7,8,9,12,3], 10).
-
-# Pyspark-properties
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# II. Pyspark-properties
 
 Thuộc tính Spark kiểm soát hầu hết các cài đặt ứng dụng và được cấu hình riêng cho từng ứng dụng. Các thuộc tính này có thể được đặt trực tiếp trên SparkConf được chuyển đến của bạn SparkContext. SparkConfcho phép bạn định cấu hình một số thuộc tính chung (ví dụ: URL chính và tên ứng dụng), cũng như các cặp khóa-giá trị tùy ý thông qua set()phương thức. Ví dụ, chúng ta có thể khởi tạo một ứng dụng với hai luồng như sau:
 Lưu ý rằng chúng tôi chạy với local [2], nghĩa là hai luồng - thể hiện sự song song “tối thiểu”, có thể giúp phát hiện lỗi chỉ tồn tại khi chúng tôi chạy trong bối cảnh phân tán.
@@ -117,8 +117,8 @@ Hầu hết các thuộc tính kiểm soát cài đặt nội bộ đều có gi
 ![17](https://user-images.githubusercontent.com/64195026/109417524-96920600-79f6-11eb-921a-c4592cca74b4.png)
 ![18](https://user-images.githubusercontent.com/64195026/109417525-97c33300-79f6-11eb-9aad-bfbf9914d78c.png)
 
-
-# Pyspark-dataframe
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# III. Pyspark-dataframe
 
 ## PySpark - Tạo DataFrame với các ví dụ
 
@@ -213,8 +213,8 @@ PySpark cũng được sử dụng để xử lý các tệp dữ liệu bán c�
 
 Có thể tạo DataFrame bằng cách đọc các tệp Avro, Parquet, ORC, Binary và truy cập bảng Hive và HBase, đồng thời đọc dữ liệu từ Kafka mà tôi đã giải thích trong các bài viết dưới đây, tôi khuyên bạn nên đọc chúng khi có thời gian.
 
-
-# Hướng dẫn Apache Spark: ML với PySpark
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# IV. Hướng dẫn Apache Spark: ML với PySpark
 
 Apache Spark được biết đến như một công cụ nhanh, dễ sử dụng và chung để xử lý dữ liệu lớn có các mô-đun tích hợp để xử lý luồng, SQL, Machine Learning (ML) và xử lý đồ thị. Công nghệ này là một kỹ năng cần thiết cho các kỹ sư dữ liệu, nhưng các nhà khoa học dữ liệu cũng có thể hưởng lợi từ việc học Spark khi thực hiện Phân tích dữ liệu khám phá (EDA), trích xuất tính năng và tất nhiên là ML.
 
